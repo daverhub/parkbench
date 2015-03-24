@@ -6,3 +6,7 @@ gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'rake'
 gem 'puma'
+
+group :development, :test do
+  gem 'pry'
+end
