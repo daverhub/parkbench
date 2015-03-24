@@ -1,0 +1,50 @@
+audio {
+    background-color: #95B9C7;
+}
+.large-10{
+  background-color: #95B9C7;
+  font-size: 150px;
+
+}
+
+.top-bar{
+
+}
+
+.fb-like{
+  margin-right: 200px;
+}
+body {
+ font-family: Georgia, Helvetica, sans-serif;
+ font-size: 15px;
+ color: white;
+ background:url("/stylesheets/img/peaceful_path-792607.jpg");
+}
+h3 {
+  color: white
+}
+#p-list {
+  width: 280px;
+  color: #666666;
+  margin: 0px 0px 0px 0px;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  padding: 20px;
+  cursor: pointer;
+  -moz-transition: all 0.2s ease-out;
+  -webkit-transition: all .2s ease-out;
+}
+#p-list:hover {
+  color: #1c1c1c;
+  background-color: #669999;
+}
+#p-list:active {
+  color: #1c1c1c;
+  background-color: rgba(0, 0, 0, .1);
+}
+#p-bg {
+  width: 320px;
+  margin: -1px -1px -1px -1px;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.9);
+}

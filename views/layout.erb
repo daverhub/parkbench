@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Park Bench</title>
+    <link rel="stylesheet" href="/stylesheets/css/foundation.css" />
+    <link rel="stylesheet" href="/stylesheets/css/foundation.min.css" />
+    <link rel="stylesheet" href="/stylesheets/css/normalize.css" />
+    <link rel="stylesheet" href="/stylesheets/app.css" />
+  </head>
+  <body>
+    <div class="container">
+
+        <%= yield %>
+
+    </div>
+    <script type="text/javascript" src="/public/javascripts/soundcloud.player.api.js"></script>
+    <script type="text/javascript">
+       soundcloud.addEventListener('onPlayerReady', function(player, data) {
+         player.api_play();
+       });
+    </script>
+
+    <script src="/javascripts/jquery-1.11.2.min.js"></script>
+    <script src="/javascripts/player.js"></script>
+    <script src="/javascripts/app.js"></script>
+  </body>
+</html>
