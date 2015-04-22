@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <body>
-
-    <script>
+  <script>
     window.fbAsyncInit = function() {
       FB.init({
         appId      : '774163019345806',
@@ -14,23 +13,19 @@
     (function(d, s, id){
        var js, fjs = d.getElementsByTagName(s)[0];
        if (d.getElementById(id)) {return;}
-       js = d.createElement(s); js.id = id;
-       js.src = "//connect.facebook.net/en_US/sdk.js";
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
-    </script>
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+  </script>
+
   <nav class="top-bar" data-topbar role="navigation"  data-options="is_hover: false">
     <ul class="title-area">
       <li class="name">
         <h1><a href="#">Park Bench</a></h1>
       </li>
-
-
-       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     </ul>
-
     <section class="top-bar-section">
-      <!-- Right Nav Section -->
       <ul class="right">
         <li class="active"><a href="#">Sign in with facebook</a></li>
         <li class="has-dropdown">
@@ -41,76 +36,40 @@
           </ul>
         </li>
       </ul>
-
     </section>
   </nav>
 
+  <div class="large-3 push-1 columns" id="player">
+    <h1><img src="/stylesheets/img/parkbench.png"/></h1>
+    <audio controls loop></audio>
+    <div id="p-list" onclick="pickSong(0)">Central Park</div>
+    <div id="p-list" onclick="pickSong(1)">Denmark</div>
+    <div id="p-list" onclick="pickSong(2)">Into the woodss</div>
+  </div>
 
-
-     <div >
-
-
-
-                      <div class="large-3 push-1 columns" id="player">
-                        <h1><img src="/stylesheets/img/parkbench.png"/></h1>
-                <audio controls loop>
-                </audio>
-                <div id="player"></div>
-                <div id="p-bg">
-                  <div id="p-list" onclick="pickSong(0)">Central Park</div>
-                  <div id="p-list" onclick="pickSong(1)">Denmark</div>
-                  <div id="p-list" onclick="pickSong(2)">Into the woodss</div>
-
-                </div>
-
-
-              </div>
-
-
-
-
-   <div class="row">
-
-
+  <div class="row" id="info">
      <div class="large-10 push-1 columns">
-
        <h3>Welcome to Park Bench</h3>
-
        <p>Park bench recreates the ambient sounds of a park to boost your creativity and help you work better..</p>
-
        <p>Our park sounds are supported by science and backed by a community of creative people using the app every day. Park bench is the perfect addition to your workday arsenal!.</p>
-
-       <div
-         class="fb-like"
-         data-share="true"
-         data-width="450"
-         data-show-faces="true">
-       </div>
+       <div class="fb-like" data-share="true" data-width="450" data-show-faces="true"></div>
      </div>
-
-
-   </div>
-
-
-
+  </div>
 
    <footer class="row">
      <div class="large-12 columns">
        <hr/>
        <div class="row">
          <div class="large-6 columns">
-           <p</p>
          </div>
          <div class="large-6 columns">
            <ul class="inline-list right">
-
+              created by: <a href="https://github.com/daverhub"> Daverhub</a>
            </ul>
          </div>
        </div>
      </div>
    </footer>
-
-
 
 </body>
 </html>
