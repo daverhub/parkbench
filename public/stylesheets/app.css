@@ -1,14 +1,23 @@
 audio {
     background-color: #95B9C7;
+    border-radius: 25px;
+}
+.container {
+
 }
 .large-10{
-  background-color: #95B9C7;
+  background-color: #00a79d;
   font-size: 150px;
+  border-radius: 25px;
 
 }
 
 .top-bar{
+  background-color: #008CBA;
+}
 
+.top-bar .name h1 a {
+  color: black;
 }
 
 .fb-like{
@@ -17,8 +26,7 @@ audio {
 body {
  font-family: Georgia, Helvetica, sans-serif;
  font-size: 15px;
- color: white;
- background:url("/stylesheets/img/peaceful_path-792607.jpg");
+ background-color: #E7D9C8;
 }
 h3 {
   color: white
@@ -47,4 +55,9 @@ h3 {
   margin: -1px -1px -1px -1px;
   float: left;
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+#info {
+  margin-top: 20px;
+
 }
